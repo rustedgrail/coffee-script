@@ -13,7 +13,7 @@ helpers      = require './helpers'
 optparse     = require './optparse'
 CoffeeScript = require './coffee-script'
 
-existsSync   = fs.existsSync or path.existsSync
+existsSync   = fs.existsSync
 
 # Keep track of the list of defined tasks, the accepted options, and so on.
 tasks     = {}

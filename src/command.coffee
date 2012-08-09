@@ -13,7 +13,7 @@ CoffeeScript   = require './coffee-script'
 {spawn, exec}  = require 'child_process'
 {EventEmitter} = require 'events'
 
-exists         = fs.exists or path.exists
+exists         = fs.exists
 
 # Allow CoffeeScript to emit Node.js events.
 helpers.extend CoffeeScript, new EventEmitter
